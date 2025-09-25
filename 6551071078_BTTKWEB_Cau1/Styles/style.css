@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+}
+.container{
+    margin: auto; 
+    width:620px;
+    border: 2px solid black;  
+    padding: 10px;      
+}
+.container1 {         
+    margin: 10px auto; 
+    width:600px;
+    padding: 15px;
+    background-color:rgb(241, 188, 241);
+    text-align: center;  
+}
+.container2{
+    background-color: #f6f3d0;
+    margin:10px auto; 
+    width:600px;
+    padding:15px;
+}
+.header{
+    line-height: 2;
+}
+.header h1{
+    color:green;
+
+}
+.header h2{
+    color:blue;
+    text-decoration: underline;
+}
+
+.container1 h2{
+    color:rgb(255, 0, 212);
+}
+.content{
+    text-align: center;
+}
+.content hr{
+    width: 20%;
+    margin: auto;
+}
+.text1{
+    color:blue;
+    line-height: 2;
+}
+.text2{
+    color: rgb(237, 74, 193);
+    line-height: 2;
+}
+.text3{
+    color:green;
+    line-height: 2;
+}

@@ -1,0 +1,105 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  background-color: rgb(47, 47, 47);
+}
+
+header{
+
+  height: 180px;
+  width: 100%;
+  overflow: hidden;
+}
+
+header img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+header .name{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: rgb(218, 218, 218);
+  font-size: 30px;
+  font-weight: 600;
+}
+
+nav{
+  display: flex;
+  gap: 20px;
+  background-color: rgb(47, 47, 47);
+}
+
+nav div{
+  color: white;
+  font-size: 20px;
+}
+
+.banner{
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+.banner img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.list-dish{
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.dish-box{
+  width: 300px;
+  padding: 10px;
+}
+
+.dish-box h4{
+  text-align: center;
+  font-size: 22px;
+  color: white;
+
+}
+.image-dish{
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.image-dish img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+.content-dish{
+  color: white;
+}
+
+.content-dish p:last-child{
+  text-align: end;
+  color: red;
+}
+
+footer{
+  background-color: rgb(28, 28, 28);
+  color: white;
+  text-align: center;
+  height: 100px;
+  width: 100%;  
+  padding: 20px 0;
+}

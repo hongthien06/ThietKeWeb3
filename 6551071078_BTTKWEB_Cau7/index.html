@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Đăng nhập và Đăng ký</title>
+  </head>
+  <body>
+     <script>
+        function showUsername() {
+            const username = document.getElementById('username').value;
+            const resultDiv = document.getElementById('result');
+            
+            if (username.trim() !== '') {
+                resultDiv.textContent = username;
+                resultDiv.style.display = 'block';
+            } else {
+                alert('Vui lòng nhập mã người dùng!');
+            }
+        }
+    </script>
+    
+    <div class="container">
+        
+        <div class="form-container">
+            <h3 class="form-title">Đăng nhập</h3>
+            <form onsubmit="event.preventDefault(); showUsername();" >
+                <div class="form-group">
+                    <label>Mã người dùng:</label>
+                    <input type="text" id="username" placeholder="ptuhung">
+                </div>
+                <div class="form-group">
+                    <label>Mật khẩu:</label>
+                    <input type="password" value="">
+                </div>
+                <button type="submit" class="btn">Đồng ý</button>
+                <div id="result" class="username-display" style="display: none;"></div>
+            </form>
+            
+        </div>
+  </body>
+</html>

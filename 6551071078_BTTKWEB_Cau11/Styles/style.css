@@ -1,0 +1,157 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+.menu-ngang {
+    display: flex; 
+}
+
+.menu-ngang li {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.menu-ngang li a {
+    padding: 10px 20px;
+    color: #444;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #ffc779 0%, #f0a33c 50%, #e0962b 100%);
+    border-right: 1px solid #c97d1e; 
+}
+
+.menu-ngang li:last-child a {
+    border-right: none; 
+}
+
+.menu-ngang li a:hover {
+    background: linear-gradient(to top, #ffc779 0%, #f0a33c 50%, #e0962b 100%);
+}
+
+
+.menu-doc-container {
+    width: 250px;
+    border: 1px solid #ccc;
+}
+
+.menu-doc-title {
+    background-color: #f7d197; 
+    color: #444;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu-doc li a {
+    padding: 8px 15px;
+    background-color: #f4f4f4; 
+    color: #333;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.9em;
+}
+
+.menu-doc li:last-child a {
+    border-bottom: none;
+}
+
+.menu-doc li a:hover {
+    background-color: #e0e0e0; 
+}
+
+
+
+.menu-dacap-container {
+    max-width: 800px;
+}
+
+.menu-dacap {
+    display: flex;
+
+    position: relative;
+    z-index: 10;
+}
+
+.menu-dacap li {
+    position: relative;
+}
+
+.menu-dacap > li > a {
+    padding: 10px 15px;
+    background-color: #f0a33c; 
+    border: 1px solid #e0962b;
+    border-right: none;
+    color: white;
+    font-weight: bold;
+    min-width: 100px;
+    text-align: center;
+}
+
+.menu-dacap > li:last-child > a {
+    border-right: 1px solid #e0962b;
+}
+
+.menu-dacap li:hover > a {
+    background-color: #e0962b; 
+}
+
+.menu-dacap ul {
+    display: none;
+    position: absolute;
+    width: 200px; 
+    top: 100%; 
+    left: 0;
+}
+
+.menu-dacap li:hover > ul {
+    display: block; 
+}
+
+.menu-dacap ul ul {
+    top: 0;
+    left: 100%;
+}
+
+.menu-dacap ul a {
+    padding: 8px 15px;
+    border: 1px solid #e7871b;
+    border-top: none;
+    color: #444;
+}
+
+.sub-menu-1 a {
+    background-color: #f7c385; 
+}
+.sub-menu-1 li:hover > a {
+    background-color: #f0a33c;
+    color: white;
+}
+
+
+.sub-menu-2 a {
+    background-color: #f0a33c; 
+    color: white;
+}
+.sub-menu-2 li:hover > a {
+    background-color: #e0962b;
+}
+
+
+.sub-menu-3 a {
+    background-color: #e0962b;
+}
+.sub-menu-3 li:hover > a {
+    background-color: #cc8921;
+}

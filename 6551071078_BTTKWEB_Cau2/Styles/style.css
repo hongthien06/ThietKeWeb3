@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+}
+.content{
+    width:500px; 
+    height:auto; 
+    margin:auto; 
+    border:1px solid black; 
+    overflow:auto; 
+    padding:10px;
+}
+.content h2{
+    color:green;
+    text-align:center;
+}

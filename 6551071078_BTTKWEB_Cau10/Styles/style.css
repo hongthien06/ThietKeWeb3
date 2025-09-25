@@ -1,0 +1,15 @@
+body {
+    font-family: Arial;
+    background-color: #e6f2ff;
+}
+a {
+    text-decoration: none;
+    color: blue;
+    text-decoration: underline;
+}
+a:hover {
+    color: purple ;
+}
+.header{
+    background-color: rgb(17, 17, 120);
+}

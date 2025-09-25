@@ -1,0 +1,18 @@
+h1 {
+  text-align: center;
+  color: red;
+}
+.nav-list {
+  font-size: 20px;
+  margin-top: 20px;
+}
+p {
+  line-height: 1.5;
+  font-size: 20px;
+  font-weight: 500;
+}
+.center-note {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 15px;
+}

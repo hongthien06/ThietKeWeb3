@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+h1{
+    color:rgb(58, 90, 118);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+table {
+    background-color: #ffffcc;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: auto;
+}
+
+td {
+    padding: 5px;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    color: blue;
+    font-weight: bold;
+}
+
+.success {
+    text-align: center;
+    color: orange;
+    font-weight: bold;
+}
+
+.group-box {
+    border: 1px solid brown;
+    padding: 10px;
+    margin-top: 10px;
+}

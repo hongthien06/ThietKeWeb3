@@ -1,0 +1,224 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-color: #fff;
+    width: 960px; 
+    margin: 0 auto;
+    border: 1px solid #ccc; 
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.header-container {
+    background-color: #f7d197; 
+    padding: 10px 0;
+}
+
+.logo {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.logo h1 {
+    color: #cc4400;
+    font-size: 36px;
+    font-family: 'Times New Roman', serif;
+}
+.logo p {
+    color: #666;
+    font-size: 12px;
+}
+
+.menu-ngang {
+    display: flex;
+    background-color: #f0a33c;
+    border-bottom: 3px solid #e0962b;
+}
+
+.menu-ngang li {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.menu-ngang li a {
+ 
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    
+    padding: 10px 0;
+    display: block;
+    border-right: 1px solid #e0962b; 
+}
+
+.menu-ngang li:last-child a {
+    border-right: none;
+}
+
+.menu-ngang li a:hover {
+    background-color: #e0962b;
+}
+
+
+.main-container {
+    display: flex; 
+    padding: 10px;
+}
+
+.sidebar {
+    width: 25%; 
+    padding-right: 10px;
+}
+
+.content {
+    width: 75%; 
+    padding-left: 10px;
+    border-left: 1px solid #ccc;
+}
+
+
+
+.menu-doc-block {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.menu-doc-title {
+    background-color: #f7d197;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu-doc li a {
+  
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+
+    background-color: #E5E5E5; 
+    padding: 8px 5px;
+    
+    border-bottom: 1px solid #ddd;
+    display: block;
+}
+
+.menu-doc li:last-child a {
+    border-bottom: none;
+}
+
+.menu-doc li a:hover {
+    background-color: #d1d1d1;
+}
+
+
+.chon-sp-title {
+    background-color: #e0962b;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.chon-san-pham form label, .chon-san-pham form select, .chon-san-pham form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.chon-san-pham form select {
+    padding: 3px;
+}
+.chon-san-pham form button {
+    width: auto;
+    padding: 5px 15px;
+    background-color: #f0a33c;
+    border: 1px solid #e0962b;
+    color: white;
+    cursor: pointer;
+}
+
+
+.product-detail {
+    overflow: hidden; 
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #ccc;
+}
+.product-detail h2 {
+    color: #cc4400;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.product-detail .price {
+    font-weight: bold;
+    color: #cc4400;
+    margin-bottom: 5px;
+}
+.product-image {
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-right: 15px;
+    border: 1px solid #ccc;
+}
+.product-info h3 {
+    margin-top: 0;
+    font-size: 16px;
+}
+
+.san-pham-moi {
+    margin-top: 20px;
+}
+.san-pham-moi h2 {
+    background-color: #e0962b;
+    color: white;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+.product-list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.product-list .item {
+    width: 23%;
+}
+.product-list .item img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+.product-list .item-price {
+    font-weight: bold;
+    color: #cc4400;
+}
+
+.footer {
+    background-color: #f0a33c; 
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 12px;
+    border-top: 3px solid #e0962b;
+}
+.footer p {
+    margin: 3px 0;
+}

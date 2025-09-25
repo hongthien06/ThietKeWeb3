@@ -1,0 +1,13 @@
+h1 {
+  text-align: center;
+  color: red;
+}
+.nav-list {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.center-note {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+}
