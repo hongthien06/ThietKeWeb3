@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Phiếu đăng ký khuyến mãi</title>
+
+    <link rel="stylesheet" href="Styles/style.css" />
+  </head>
+  <body>
+    <script>
+      function toggleProduct(element) {
+        element.classList.toggle("selected");
+      }
+
+      function submitForm() {
+        document.getElementById("successMessage").style.display = "block";
+      }
+    </script>
+
+    <h2>Câu 8. Tạo trang web Phiếu đăng ký tham gia chương trình khuyến mãi</h2>
+
+    <div class="form-container">
+      <div class="form-title">
+        Phiếu đăng ký tham gia chương trình khuyến mãi
+      </div>
+
+      <div class="form-content">
+        <form>
+          <table class="form-table">
+            <tr>
+              <td>Họ và tên:</td>
+              <td><input type="text" placeholder="Nguyễn Ngọc Quỳnh Nga" /></td>
+            </tr>
+
+            <tr>
+              <td class="spacer"></td>
+            </tr>
+
+            <tr>
+              <td>Địa chỉ:</td>
+              <td><input type="text" placeholder="2Bis Hùng Vương, Q10" /></td>
+            </tr>
+
+            <tr>
+              <td class="spacer"></td>
+            </tr>
+
+            <tr>
+              <td>Điện thoại:</td>
+              <td><input type="tel" placeholder="0909097506" /></td>
+            </tr>
+
+            <tr>
+              <td class="spacer"></td>
+            </tr>
+
+            <tr>
+              <td>Phái:</td>
+              <td>
+                <div class="radio-group">
+                  <label
+                    ><input type="radio" name="gender" value="nam" /> Nam</label
+                  >
+                  <label
+                    ><input type="radio" name="gender" value="nu" checked />
+                    Nữ</label
+                  >
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="spacer"></td>
+            </tr>
+
+            <tr>
+              <td>Nghề nghiệp:</td>
+              <td>
+                <select>
+                  <option>Kỹ sư</option>
+                  <option>Bác sĩ</option>
+                  <option selected>Giáo viên</option>
+                  <option>Sinh viên</option>
+                  <option>Khác</option>
+                </select>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="spacer"></td>
+            </tr>
+
+            <tr>
+              <td>Chọn sản phẩm tham gia:</td>
+              <td>
+                <div class="checkbox-container">
+                  <div
+                    class="checkbox-item selected"
+                    onclick="toggleProduct(this)"
+                  >
+                    Kem đánh răng
+                  </div>
+                  <div class="checkbox-item" onclick="toggleProduct(this)">
+                    Bột giặt
+                  </div>
+                  <div
+                    class="checkbox-item selected"
+                    onclick="toggleProduct(this)"
+                  >
+                    Dầu gội đầu
+                  </div>
+                  <div class="checkbox-item" onclick="toggleProduct(this)">
+                    Sữa tắm
+                  </div>
+                </div>
+              </td>
+            </tr>
+
+            <tr>
+              <td class="spacer"></td>
+            </tr>
+
+            <tr>
+              <td>Số người dự đoán tham gia:</td>
+              <td><input type="text" placeholder="250000" /></td>
+            </tr>
+          </table>
+
+          <div class="btn-container">
+            <button type="button" class="btn" onclick="submitForm()">
+              Đồng ý
+            </button>
+          </div>
+
+          <div
+            id="successMessage"
+            class="success-message"
+            style="display: none"
+          >
+            Bạn đã đăng ký thành công!!!
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
